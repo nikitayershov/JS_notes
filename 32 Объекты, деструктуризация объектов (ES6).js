@@ -37,7 +37,7 @@ for (let key in options) {
     }
 }
 
-console.log(Object.keys(options).length);
+console.log(Object.keys(options).length);   //-Object.keys выводит значения объекта в виде массивва.
 
 function foo(a,b) {
     const [first] = a;

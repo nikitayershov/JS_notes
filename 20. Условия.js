@@ -1,6 +1,6 @@
 "use strict";
 
-if (4 == 5) {
+if (4 === 5) {
     console.log('Ok');
 } else {
     console.log('Error');
@@ -16,7 +16,7 @@ const num = 50;
 //     console.log('Ok!');
 // }
 //
-// (num === 50) ? console.log('Ok!') : console.log('Error');
+(num === 50) ? console.log('Ok!') : console.log('Error');
 
 
 

@@ -10,8 +10,7 @@ function compareNum(a, b) {
  return a - b;
 }
 
-
-console.log(arr);
+console.log(arr); //[ 2, 3, 10, 12, 111 ]
 
 // обычный цикл for
 for (let i = 0; i < arr.length; i++) {
